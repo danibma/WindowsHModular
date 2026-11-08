@@ -497,6 +497,16 @@ BOOL WINAPI ClipCursor(
         const RECT *lpRect);
 int WINAPI ShowCursor(
         BOOL bShow);
+
+/* ========================================================================== */
+/* Key Functions: */
+UINT WINAPI MapVirtualKeyA(
+        UINT uCode, 
+        UINT uMapType);
+UINT WINAPI MapVirtualKeyW(
+        UINT uCode,
+        UINT uMapType);
+
 #if defined(__cplusplus)
 }
 #endif
