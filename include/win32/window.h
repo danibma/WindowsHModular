@@ -170,9 +170,42 @@ extern "C" {
 #define VK_SHIFT                        0x10
 #define VK_CONTROL                      0x11
 #define VK_MENU                         0x12
+#define VK_PAUSE                        0x13
+#define VK_CAPITAL                      0x14
 #define VK_RETURN                       0x0D
 
+#define VK_NUMLOCK                      0x90
+#define VK_SCROLL                       0x91
+
 #define VK_ESCAPE                       0x1B
+
+#define VK_F1                           0x70
+#define VK_F2                           0x71
+#define VK_F3                           0x72
+#define VK_F4                           0x73
+#define VK_F5                           0x74
+#define VK_F6                           0x75
+#define VK_F7                           0x76
+#define VK_F8                           0x77
+#define VK_F9                           0x78
+#define VK_F10                          0x79
+#define VK_F11                          0x7A
+#define VK_F12                          0x7B
+
+#define VK_LSHIFT                       0xA0
+#define VK_RSHIFT                       0xA1
+#define VK_LCONTROL                     0xA2
+#define VK_RCONTROL                     0xA3
+#define VK_LMENU                        0xA4
+#define VK_RMENU                        0xA5
+
+#define VK_OEM_1                        0xBA   // ';:' for US
+#define VK_OEM_PLUS                     0xBB   // '+' any country
+#define VK_OEM_COMMA                    0xBC   // ',' any country
+#define VK_OEM_MINUS                    0xBD   // '-' any country
+#define VK_OEM_PERIOD                   0xBE   // '.' any country
+#define VK_OEM_2                        0xBF   // '/?' for US
+#define VK_OEM_3                        0xC0   // '`~' for US
 
 #define VK_SPACE                        0x20
 #define VK_PRIOR                        0x21
